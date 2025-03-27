@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkpoint1</title>
+    <link rel="stylesheet" href="style.css">
+    <!--cette a pour but de lier html et css-->
 </head>
 <body>
     <header>
@@ -25,7 +27,7 @@
         <!--voici ma premiere section qui s'appelle Bar-->
         <h2>About</h2>
         <p>Avec une experience de plus de 10 ans nous sommes dynamique et aussi efficace </p>
-        <img src="/image/a propos.jpg" alt="photo" width="150px" wright="100px">
+        <img src="a propos.jpg" alt="photo" width="150px" wright="100px">
         <p>La prochaine section va bien vous expliciter notre travail</p>
     </section>
     <section id="Work">
@@ -33,7 +35,7 @@
         <h2>Work</h2>
         <p>Notre travail consiste a vous aider a vous ameliorer au quotidien
         car il y a que le travail qui nous permet de nous epanuir</p>
-        <img src="/image/Travail.jpg" alt="photo" width="150px" weight="100px">
+        <img src="Travail.jpg" alt="photo" width="150px" weight="100px">
         <p>La section qui suit va nous parler du résume</p>
     </section>
     <section id="Resume">
@@ -41,6 +43,7 @@
         <h2>Resume</h2>
         <p>Decouvrez l'ensemble de nos services qui procurent une meilleur apprenstissage</p>
         <table border="1">
+            <!--la creation d'une table-->
             <tr>
                 <td>Années acamdemique</td>
                 <td>Formations</td>
@@ -73,7 +76,8 @@
         <H2>Nous contacter</H2>
         <p>Le formulaire ci dessous va vous permettre d'entrer en contact avec 
             notre equipe qui s'ocuupe de la communication</p>
-            <form action>
+            <form class="action">
+                <!--creation dun formulaire-->
              <label for="nom">Nom</label>
              <input type="text" id="name" name="name"> <br>
 
@@ -91,11 +95,12 @@
 
              <label for="Niveau">Niveau</label>
              <input type="Niveau" id="Niveau" name="Niveau"><br>
-
+            <!--la création d'un bouton de soumettre--> 
              <input type="Submit" value="Envoyer">
             </form>
 
     </section>
 </body>
+           <!--c'est le pied de page de notre page web-->
 <footer>&copysr;Grand Dakar Rue 11-22</footer>
 </html>
